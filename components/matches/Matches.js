@@ -22,7 +22,7 @@ function Matches() {
   }
   return (
     <div className="flex flex-wrap py-12  flex-col items-center gap-8 bg-[#56042C] min-h-[1000px]">
-      <div className="flex items-center gap-4 flex-wrap">
+      <div className="flex items-center justify-center gap-4 flex-wrap">
         {optionData.map((option) => (
           <button
             key={option.id}
