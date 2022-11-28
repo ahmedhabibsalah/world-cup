@@ -24,7 +24,7 @@ function AllMatches() {
           className="shadow-md w-[300px] p-8  sm:w-[600px] rounded-[20px] flex flex-col items-center justify-center bg-[#fff]"
           key={update.id}
         >
-          <div className="flex items-center justify-between w-full px-12 pb-8">
+          <div className="flex items-center justify-between sm:flex-row flex-col gap-2 w-full px-12 pb-8">
             <p className="text-base text-[#70757a]">{update.stage_name}</p>
             <p className="text-base text-[#70757a] tracking-widest">
               {update.datetime}
