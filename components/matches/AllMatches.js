@@ -26,7 +26,7 @@ function AllMatches() {
         >
           <div className="flex items-center justify-between sm:flex-row flex-col gap-2 w-full px-12 pb-8">
             <p className="text-base text-[#70757a]">{update.stage_name}</p>
-            <p className="text-base text-[#70757a] tracking-widest">
+            <p className="text-base text-[#70757a] tracking-widest sm:whitespace-normal whitespace-nowrap">
               {update.datetime}
             </p>
           </div>
